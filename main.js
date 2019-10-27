@@ -238,7 +238,7 @@ $(document).on("touchmove", "#touchDet",
 
 let startAR = function (name) {
     testCube.setAttribute("visible", false);
-    $("btn-primary").addClass("display-none");
+    $(".btn-primary").addClass("display-none");
 
     let syachi = document.getElementById("animal-syachi");
     let penguin = document.getElementById("animal-penguin");
